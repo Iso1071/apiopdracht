@@ -1,0 +1,23 @@
+{
+  "name": "api-opdracht",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run dev & npm run db",
+    "dev": "vite ./fe/ --open --host",
+    "build": "vite build ./fe/",
+    "preview": "vite preview ./fe/ --open --host",
+    "db": "json-server ./be/db.json --watch"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  },
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
+}

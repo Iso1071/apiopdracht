@@ -1,0 +1,28 @@
+{
+  "rechthoekObjecten": [
+    {
+      "id": 1,
+      "color": "blue",
+      "width": 300,
+      "height": 100,
+      "x": 20,
+      "y": 80
+    },
+    {
+      "id": 2,
+      "color": "black",
+      "width": 300,
+      "height": 100,
+      "x": 200,
+      "y": 90
+    },
+    {
+      "id": 3,
+      "color": "red",
+      "width": 300,
+      "height": 100,
+      "x": 500,
+      "y": 100
+    }
+  ]
+}
